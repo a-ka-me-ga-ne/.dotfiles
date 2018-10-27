@@ -15,10 +15,7 @@ endif
 filetype plugin indent on
 syntax enable
 set smartindent
-<<<<<<< HEAD
 set number
-=======
 set tabstop=5
 set number
 let g:pymode_python = 'python3'
->>>>>>> toml

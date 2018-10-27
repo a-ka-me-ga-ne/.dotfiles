@@ -14,3 +14,5 @@ if dein#load_state('/home/hibiki/.cache/dein')
 endif
 filetype plugin indent on
 syntax enable
+set smartindent
+set number

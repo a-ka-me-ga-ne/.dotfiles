@@ -7,9 +7,9 @@ if dein#load_state('/home/hibiki/.cache/dein')
 	call dein#begin('/home/hibiki/.cache/dein')
 	call dein#add('/home/hibiki/.cache/dein/repos/github.com/Shougo/dein.vim')
         " Add or remove your plugins here like this:
-	call dein#add('~/.cache/vim-smartinput')
-	call dein#add('~/.cache/neocomplete.vim')
-	call dein#add('~/.cache/python-mode-klen')
+	call dein#add('kana/vim-smartinput')
+	call dein#add('Shougo/neocomplete.vim')
+	call dein#add('vim-scripts/python-mode-klen')
 	call dein#end()
 	call dein#save_state()
 endif

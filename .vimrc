@@ -13,10 +13,13 @@ if dein#load_state('/home/hibiki/.cache/dein')
 	call dein#end()
 	call dein#save_state()
 endif
+if dein#check_install()
+     call dein#install()
+endif
 filetype plugin indent on
 syntax enable
 set number
-set tabstop=5
+let tabstop = 5
 set backspace=indent,eol,start
 set smarttab
 set showcmd

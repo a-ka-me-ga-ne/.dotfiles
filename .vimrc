@@ -19,8 +19,7 @@ endif
 filetype plugin indent on
 syntax enable
 set number
-let tabstop = 5
+set tabstop=5
 set backspace=indent,eol,start
-set smarttab
 set showcmd
 let g:pymode_python = 'python3'

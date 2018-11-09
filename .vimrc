@@ -22,3 +22,8 @@ set number
 set tabstop=5
 set backspace=indent,eol,start
 set showcmd
+set nowritebackup
+set nobackup
+set noswapfile
+set list
+set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲

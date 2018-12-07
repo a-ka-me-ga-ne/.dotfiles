@@ -27,3 +27,4 @@ set nobackup
 set noswapfile
 set list
 set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲
+autocmd FileType python setlocal completeopt-=preview
